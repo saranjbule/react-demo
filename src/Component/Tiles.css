@@ -1,0 +1,46 @@
+.tile {
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 0.25rem;
+
+  
+}
+
+.active-tile {
+  box-shadow: 0 0px 16px #E4FD2C;
+  background: #E4FD2C;
+  cursor: pointer;
+}
+
+/* 
+.clicked-tile {
+  box-shadow: 0 0px 16px #1bfc06;
+  background: #1bfc06;
+} */
+
+/* .clicked-tile {
+  box-shadow: 0 0px 16px #fff;
+  background: #fff;
+} */
+
+.non-active-tile {
+  visibility: hidden;
+}
+
+.delay {
+  transition: 2s;
+}
+
+.word {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.25rem;
+  justify-items: center;
+}
+
+.board {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
